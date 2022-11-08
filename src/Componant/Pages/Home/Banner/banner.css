@@ -1,0 +1,16 @@
+.banner {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Ubuntu Mono", monospace;
+}
+.banner .text-highlight {
+  letter-spacing: 10px;
+  font-size: 4rem;
+  font-family: "M PLUS 1 Code", sans-serif;
+  color: #0a192fe8;
+}
