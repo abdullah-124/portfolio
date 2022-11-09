@@ -9,8 +9,8 @@ export default function Banner() {
           <article className="col-12 col-lg-8 col-md-10">
             <h6 className="text-past fw-bold fs-4">Hi, my name is </h6>
             <h1 className="text-navy">Abdullah Sakib</h1>
-            <h1 className="text-highlight fw-light fs-1">Baby Developer</h1>
-            <p className="text-navy col-9 my-4 fw-semibold">
+            <h1 className="text-highlight">Baby Developer</h1>
+            <p className="text-navy col-10 my-4 fw-semibold">
               I'm a <span className="text-past"> junior developer </span>
               specializing in building (and occasionally designing) exceptional
               digital experiences. Currently, I'm focused on my

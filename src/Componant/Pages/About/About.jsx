@@ -18,7 +18,7 @@ export default function About() {
           </div>
           <article className="bio">
             <div className="row">
-              <div className="col-lg-6 mx-auto">
+              <div className="col-lg-6 col-md-6 col-sm-12 mx-auto">
                 <p className="about-text">
                   Hello! my name is <span className="text-past">Abdullah </span>
                   and i am a{" "}
@@ -47,8 +47,11 @@ export default function About() {
                     keywordList.map(keyword=><AboutKeyword key={keyword.id} keyword={keyword}/>)
                   }
               </div>
-              <div className="col-lg-5 mx-auto p-5">
+              <div className="col-lg-5 col-md-6 col-sm-12 mx-auto p-5">
+                   <div className="photo-border">
                    <img className="userImg img-fluid" src={userImg} alt="" />
+                   <div className="borderH"></div>
+                   </div>
               </div>
             </div>
           </article>

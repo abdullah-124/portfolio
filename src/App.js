@@ -5,11 +5,13 @@ import Home from "./Componant/Pages/Home/Home";
 import About from "./Componant/Pages/About/About";
 import Projects from "./Componant/Pages/Projects/Projects";
 import NavigationBar from "./Componant/Pages/Navbar/NavigationBar";
+import Preloader from "./Componant/PreLoader/Preloader";
 
 function App() {
   return (
     <BrowserRouter>
       <NavigationBar />
+      {/* <Preloader/> */}
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
