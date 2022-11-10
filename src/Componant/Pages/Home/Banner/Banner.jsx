@@ -13,9 +13,7 @@ export default function Banner() {
             <p className="text-navy col-10 my-4 fw-semibold">
               I'm a <span className="text-past"> junior developer </span>
               specializing in building (and occasionally designing) exceptional
-              digital experiences. Currently, I'm focused on my
-              <span className="text-past"> study</span> and exploring various
-              <span className="text-past" > technology</span>.
+              digital experiences.
             </p>
             <button className="button-primary-outline px-5">Resume</button>
           </article>

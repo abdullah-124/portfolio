@@ -7,7 +7,7 @@ import { keywordList } from "./keywordList";
 export default function About() {
   return (
     <>
-      <section className="container about">
+      <section className="container about mt-5">
         <div>
           <div className="d-flex">
             <h3>
